@@ -1,0 +1,21 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="Alguna categoria" >
+        <EditTextPreference
+            android:defaultValue="0"
+            android:dialogTitle="Dialogo"
+            android:inputType="number"
+            android:key="keyforEjemplo"
+            android:summary="Una opcion de ejemplo"
+            android:title="Ejemplo" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Seguridad" >
+        <Preference
+            android:summary="Contraseña para algo"
+             android:key="keyforPass"
+            android:title="Contraseña" >
+      
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>
